@@ -1,8 +1,6 @@
-![django-leaf](https://s3.amazonaws.com/django-leaf/img/django-leaf-icon.png)
+# django3-leaf
 
-# django-leaf
-
-> Render django templates based on URL path.
+> Forked from https://github.com/coremke/django-leaf to provide django 3+ support. Render django templates based on URL path.
 
 [![Build Status](https://img.shields.io/travis/gsmke/django-leaf/master.svg?style=flat)](https://travis-ci.org/gsmke/django-leaf)
 [![Latest Version](https://img.shields.io/pypi/v/django-leaf.svg?style=flat)](https://pypi.python.org/pypi/django-leaf/)
@@ -12,7 +10,7 @@
 1. Install the package from pypi:
 
     ```bash
-    pip install django-leaf
+    pip install django3-leaf
     ```
 
 2. Add "leaf" and "mptt" to your INSTALLED_APPS:

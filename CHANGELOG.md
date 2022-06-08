@@ -15,6 +15,11 @@ Boilerplate:
 
 ### Security
 -->
+## v3.0.1 (2022-06-08)
+
+- Add support for Django 3
+- Switch to poetry setup
+
 ## v2.2.1 (2020-05-05)
 
 - Add support for Django 2.2
