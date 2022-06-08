@@ -7,6 +7,9 @@ readme = "README.md"
 authors = ["Ryan Senkbeil <sysadmin@corecreative.com>"]
 maintainers = ["Imagescape <info@imagescape.com>"]
 license = "BSD"
+packages = [
+    { include = "leaf" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
