@@ -1,7 +1,7 @@
-from django.conf.urls import url
+from django.urls import re_path
 
 from .views import LeafTemplateView
 
 urlpatterns = [
-    url(r'(?P<leaf_url>.*)(/)?$', LeafTemplateView.as_view(), name='page'),
+    re_path(r'(?P<leaf_url>.*)(/)?$', LeafTemplateView.as_view(), name='page'),
 ]

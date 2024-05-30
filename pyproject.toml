@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django3-leaf"
-version = "3.0.1"
+version = "3.0.2"
 description = "Render and serve django templates based on URL."
 homepage = "https://github.com/ImaginaryLandscape/django3-leaf"
 readme = "README.md"
